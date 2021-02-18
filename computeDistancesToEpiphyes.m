@@ -1,5 +1,8 @@
 function d = computeDistancesToEpiphyes()
 
+
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
 global LINES PHL DHL RESOLUTION;
 
 d = [];
