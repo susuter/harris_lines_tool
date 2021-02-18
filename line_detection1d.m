@@ -1,17 +1,17 @@
 function f = line_detection1d(I, sigm, shrink)
 %EDGE Find edges in intensity image.
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 sigm = 1;
 sigm = 0.834 * sigm;
 
 I_adiff =  anisodiff(I, 20, 100, 0.25, 1);
-%figure('Name', 'I_adiff'); imshow(I_adiff, []);
 
 w  =  gaussian1d(sigm);
 I2 = imfilter(I_adiff, w);
-%I_shrinked_shape = shrinkShape(I_shape, shrink);
-%I = I .* I_shrinked_shape; 
-%figure('Name', 'input'); imshow(I2);
+
 
 %shift to -sigma and +sigma *-1
 %this shifts represent two gaussian filters, filter_left and
