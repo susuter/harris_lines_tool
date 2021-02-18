@@ -20,6 +20,9 @@ function varargout = cropDicomTool(varargin)
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 % Edit the above text to modify the response to help cropDicomTool
 
 % Last Modified by GUIDE v2.5 05-Jun-2009 15:53:50
