@@ -1,6 +1,9 @@
 function age = maat_age_lookup_male(hl)
 %hl = percentage of occurence of harris line in distal adult diaphyses
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 table = [17.15, 2/12; 20.99, 4/12; 23.44, 6/12; 25.60, 1; 33.02, 1.5; ...
     36.75, 2; 40.04, 2.5; 42.94, 3; 45.65, 3.5; 48.22, 4; 50.72, 4.5; ...
     53.09, 5; 55.41, 5.5; 57.67, 6; 59.85, 6.5; 62.01, 7; 64.17, 7.5; ...
