@@ -1,5 +1,8 @@
 function lines = harris_high()
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 global SHRINK SIGMA DE PE PHL DHL HL_LENGTH IM_BONE;
 
 [y, x] = size(IM_BONE);
