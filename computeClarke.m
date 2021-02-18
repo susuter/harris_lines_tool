@@ -4,6 +4,9 @@ function ages = computeClarke()
 %lines: input image, 1d, line or not, size of total original input image
 %sex: 'm' for male, 'f' for female
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 global PRIM_OSS_CENTER FEMALE LINES LINES_CUT RESULTS DEF_LINE;
 
 LINES_CUT = LINES(1:floor(size(LINES,1) * (1-DEF_LINE)), :);
