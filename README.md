@@ -9,13 +9,13 @@ The copyright is regulated under the LICENSE file. By using this code you agree 
 
 * Suter S, Harders M, Papageorgopoulou C, Kuhn G, Szekely G, Ruhli FJ. Technical note: standardized and semiautomated Harris lines detection. Am J Phys Anthropol. 2008 Nov;137(3):362-6.
 
-##More Information
+## More Information
 
 * Slides and publications: http://harrislinestool.com/index.php/Publications/Publications
 
 * User guide: http://harrislinestool.com/index.php/UserGuide/UserGuide
 
-##Requirements
+## Requirements
 
 * MATLAB
 * MATLAB Image Processing Toolbox
