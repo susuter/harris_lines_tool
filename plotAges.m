@@ -1,5 +1,8 @@
 function plotAges(display_proximal)
 %display rseutls of hl computation: ages of hl occurences
+
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
 global RESULTS LINES_CUT DHL;
 y_length = size(LINES_CUT, 1);
 num_results = size(RESULTS, 2);
@@ -33,4 +36,3 @@ for y = start:y_length
     end
 end
 
-%set(handles.textMethod, 'String', method);
