@@ -1,6 +1,9 @@
 function [def, pef] = detectEF(hfig)
 % detects the distal and proximal epiphyseal fusion (def, pef)
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 global IM_BONE IM_SHAPE_0;
 
 %distal epiphyeseal fusion
@@ -115,31 +118,6 @@ pef = im2bw(proximal, level_p);
 [L2_p, num_labels_p] = bwlabel(pef, 8);
 stats2_p = regionprops(L2_p, 'Area', 'BoundingBox', 'Image');
 
-% max_label = 0;
-% max_label_size = 0;
-% for i = 1:num_labels_p
-%     label_size = stats2_p(i).Area;
-%     if (label_size > max_label_size)
-%         max_label_size = label_size;
-%         max_label = i;
-%     end
-% end
-
-
-% pef2 = pef;
-% for i = 1:m
-%     for j = 1:n
-%         val = L2_p(i,j);
-%         if (val==max_label)
-%             pef2(i,j) = 1;
-%         else
-%             pef2(i,j) = 0;
-%         end
-%     end
-% end
-
-
-%figure, imshow(pef, []);
 
 pef_line = 1;
 pef_height = size(pef, 1);
