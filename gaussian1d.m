@@ -1,6 +1,9 @@
 function   dG = gaussian1d(sigma)
 %1d rootdetection: gaussian filter adjusted for sigma
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 %first derivative of gaussian
 
 std = sigma;
