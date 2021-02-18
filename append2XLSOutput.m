@@ -4,6 +4,9 @@ function append2XLSOutput(hasEpiphyses)
 % tibia length
 % filename (select with save as dialog)
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 global AGE SEX AGE_GROUP IND_NAME LEFT_SIDE STATURE TOT_LENGTH XLS_OUT GRAVE SITE DATE;
 
 distEpi = computeDistancesToEpiphyes();
