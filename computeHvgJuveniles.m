@@ -7,6 +7,9 @@ function hl_occurrences = computeHvgJuveniles()
 %lines: input image, 1d, line or not, size of total original input image
 %sex: 'm' for male, 'f' for female
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 global PRIM_OSS_CENTER AGE_GROUP LINES LINES_CUT RESULTS;
 LINES_CUT = LINES;
 
