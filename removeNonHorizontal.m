@@ -1,5 +1,7 @@
 function lines = removeNonHorizontal(lines0)
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
 global ORIENTATION_TOLERANCE;
 
 [lines3, num_labels] = bwlabel(lines0, 8);
