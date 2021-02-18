@@ -76,9 +76,6 @@ for x = 1:x_length
     left(:, x) = l';
     combResponse(:, x) = response';
 end
-%figure('Name', 'right response'); imshow(right, []);
-%figure('Name', 'left response'); imshow(left, []);
 
 f = combResponse;
-%figure('Name', 'response'); imshow(f, []);
 
