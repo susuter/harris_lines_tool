@@ -1,5 +1,8 @@
 function lines = consolidateLines(linesIn)
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 global LINES IM_SHAPE PHL DHL DE PE;
 [c, num_labels] = bwlabel(linesIn, 8);
 stats = regionprops(c, 'PixelList', 'Image');
