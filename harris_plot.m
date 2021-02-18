@@ -1,5 +1,8 @@
 function harris_plot(hfig, lines)
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 global DE PE PHL DHL IM_SHAPE;
 
 
@@ -11,9 +14,7 @@ for y = floor(length_y*PE)+10:ceil(length_y*PHL)-10
         hl = lines(y, x);
         if (hl)
             inside_bone = IM_SHAPE(y, x);
-            %if (inside_bone)
-                plot(x ,y ,'LineWidth',1,'Color','white');
-            %end
+              plot(x ,y ,'LineWidth',1,'Color','white');
         end
     end
 end
