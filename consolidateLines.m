@@ -25,14 +25,11 @@ for l = 1:num_labels
     pxlist = stats(l).PixelList;
     y_hl = pxlist(max_idx, 2);
     x_hl = pxlist(max_idx, 1);
-    %inside_bone = IM_SHAPE(y_hl, x_hl);
-    %if (inside_bone)
     if (y_hl > floor(length*PE)+10 && y_hl < floor(length*DE)-10)
         if (y_hl < ceil(length*PHL)-10 || y_hl > floor(length*DHL)+10)
             lines(y_hl, 1) = 1;
         end
     end
-    %end
 end
 
 
@@ -53,4 +50,3 @@ for y = 1:length
 end
 
 LINES = lines;
-%dlmwrite('lines.out', lines);
