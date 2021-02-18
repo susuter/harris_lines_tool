@@ -19,3 +19,6 @@ The copyright is regulated under the LICENSE file. By using this code you agree 
 
 * MATLAB
 * MATLAB Image Processing Toolbox
+
+
+Note: this repository is not actively improved (nor supported), but the code is available such that it can be reused.
