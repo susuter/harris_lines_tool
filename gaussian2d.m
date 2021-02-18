@@ -1,6 +1,8 @@
 function   g=gaussian2dRD(sigma)
 %gaussian for 2d rootdetection
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
 %dettwiler, p.34
 %filter adapted from matlab function fspecial('gaussian')
 
