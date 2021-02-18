@@ -1,6 +1,9 @@
 function age = clarke_age_lookup(hl, table)
 %hl = percentage of occurence of harris line in distal adult diaphyses
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 do_return = false;
 num_ages = size(table, 1);
 
