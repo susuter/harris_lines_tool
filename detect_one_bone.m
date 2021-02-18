@@ -1,5 +1,6 @@
 function [I_cropped, shape_shrinked, shape] = detect_one_bone()
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
 
 %define global variables
 global DE PE PHL DHL THRESH THRESH_OFFSET IM_DCM IM_BONE IM_SHAPE IM_SHAPE_0;
