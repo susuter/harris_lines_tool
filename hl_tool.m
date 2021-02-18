@@ -20,6 +20,9 @@ function varargout = hl_tool(varargin)
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 % Edit the above text to modify the response to help hl_tool
 
 % Last Modified by GUIDE v2.5 17-Jun-2009 09:02:17
