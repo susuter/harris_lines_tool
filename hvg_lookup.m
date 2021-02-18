@@ -1,6 +1,9 @@
 function result = hvg_lookup(age, hl)
 %...
 
+%Copyright (c) 2021 University of Zurich, Institute of Evolutionary Medicine
+
+
 result = 0;
 if (strcmp(age,'1'))
     table = [69.4, 0.5; 100, 1];
