@@ -18,25 +18,19 @@ The copyright is regulated under the LICENSE file. By using this code you agree 
 * Suter S, Harders M, Papageorgopoulou C, Kuhn G, Szekely G, Ruhli FJ. [Technical note: standardized and semiautomated Harris lines detection.](http://onlinelibrary.wiley.com/doi/10.1002/ajpa.20901/abstract ) Am J Phys Anthropol. 2008 Nov;137(3):362-6.
 
 
-## More Information
-
-* Slides and publications: http://harrislinestool.com/index.php/Publications/Publications
-
-* User guide: http://harrislinestool.com/index.php/UserGuide/UserGuide
-
 ## Download
 The Harris lines tool (HL Tool) may be used for scientific research and evaluation purposes only. You agree to give credit to the original authors (Suter et al., 2008, and Papageorgopoulou et al., 2011) in any work that results from using the Harris lines tool.
 
 Windows (Win2000 +):
-* [[Attach:HLTool20090630-1.zip | HL Tool]] (2009-06-30)
-* [[Attach:CropDicomTool_win_20110420.zip | Crop Dicom Tool]] (2011-04-20)
-* [[Attach:CropDicomTool_win_20090630.zip | Crop Dicom Tool]] (2009-06-30)
+* [HL Tool](HLTool20090630-1.zip) (2009-06-30)
+* [Crop Dicom Tool](CropDicomTool_win_20110420.zip) (2011-04-20)
+* [Crop Dicom Tool](CropDicomTool_win_20090630.zip) (2009-06-30)
 
 
 Mac OS X (Intel):
-* [[Attach:HLTool20090630_osx.zip | HL Tool (mac os x)]] (2009-06-30), works but has some problems with the export. [[Contact/Contact]] the authors if you intend to use the export functionality.
-* [[Attach:CropDicomTool20110420_osx.zip | Crop Dicom Tool (mac os x)]] (2011-04-20)
-* [[Attach:CropDicomTool20090630_osx.zip | Crop Dicom Tool (mac os x)]] (2009-06-30)
+* [HL Tool (mac os x)](HLTool20090630_osx.zip) (2009-06-30), works but has some problems with the export. 
+* [Crop Dicom Tool (mac os x)](CropDicomTool20110420_osx.zip) (2011-04-20)
+* [Crop Dicom Tool (mac os x)](CropDicomTool20090630_osx.zip) (2009-06-30)
 
 
 
@@ -48,9 +42,7 @@ Mac OS X (Intel):
 
 
 #### Sample Data
-* [[Attach:DCMsamples.zip | sample data (2 dcm) ]]
-* [[Attach:DCMsamples4.zip | sample data (4 dcm) ]]
-* [[Attach:DCMsamples11.zip | sample data (11 dcm) ]]
+* [sample data (11 dcm) ](DCMsamples.zip)
 
 
 
@@ -65,7 +57,7 @@ The application runs as MatLab standalone application. This allows the user to r
 #### Steps for installation
 - Install MCR libraries (MCRInstaller (exe, bin or dmg)
 - perform the steps described in the [readme](install_readme.txt) file
-- [[Download | download]] the Harris lines tool and double click on the executable of the application
+- Download (above) the Harris lines tool and double click on the executable of the application
 
 For further help on installing and running a MatLab standalone application, visit the documentation website of MatLab: [[ http://www.mathworks.com/access/helpdesk/help/helpdesk.html| MatLab documentation]].
 
