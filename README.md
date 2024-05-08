@@ -67,7 +67,7 @@ For further help on installing and running a MatLab standalone application, visi
 * MATLAB Image Processing Toolbox
 
 ## User Guide
-* [[UserGuide.crop_dicom | user guide crop dicom tool]] (2011-04-20)
+* [user guide crop dicom tool](Harris%20Lines%20Tool%20_%20UserGuide%20_%20CropDicom.pdf) (2011-04-20)
 
 ### Output of age-at-formation for the different methods:
 The four different age-at-formation methods suggest and use different age categories for the final output. An overview is given here (for details see original publications):
