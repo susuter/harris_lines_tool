@@ -15,6 +15,21 @@ The copyright is regulated under the LICENSE file. By using this code you agree 
 
 * User guide: http://harrislinestool.com/index.php/UserGuide/UserGuide
 
+## Installation Guidelines for the Harris Lines Tool 
+
+
+### MatLab Standalone Application
+
+The application runs as MatLab standalone application. This allows the user to run the tool without having installed a MatLab. No MatLab licence is needed. But there are some steps that need to be installed before running the Harris lines tool (You need administrator privileges). 
+
+#### Steps for installation
+- Install MCR libraries (MCRInstaller (exe, bin or dmg)
+- perform the steps described in the [[install_readme.txt |readme]] file
+- [[Download | download]] the Harris lines tool and double click on the executable of the application
+
+For further help on installing and running a MatLab standalone application, visit the documentation website of MatLab: [[ http://www.mathworks.com/access/helpdesk/help/helpdesk.html| MatLab documentation]].
+
+
 ## Requirements
 
 * MATLAB
