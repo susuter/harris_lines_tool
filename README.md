@@ -15,6 +15,37 @@ The copyright is regulated under the LICENSE file. By using this code you agree 
 
 * User guide: http://harrislinestool.com/index.php/UserGuide/UserGuide
 
+## Download
+The Harris lines tool (HL Tool) may be used for scientific research and evaluation purposes only. You agree to give credit to the original authors (Suter et al., 2008, and Papageorgopoulou et al., 2011) in any work that results from using the Harris lines tool.
+
+Windows (Win2000 +):
+* [[Attach:HLTool20090630-1.zip | HL Tool]] (2009-06-30)
+* [[Attach:CropDicomTool_win_20110420.zip | Crop Dicom Tool]] (2011-04-20)
+* [[Attach:CropDicomTool_win_20090630.zip | Crop Dicom Tool]] (2009-06-30)
+
+
+Mac OS X (Intel):
+* [[Attach:HLTool20090630_osx.zip | HL Tool (mac os x)]] (2009-06-30), works but has some problems with the export. [[Contact/Contact]] the authors if you intend to use the export functionality.
+* [[Attach:CropDicomTool20110420_osx.zip | Crop Dicom Tool (mac os x)]] (2011-04-20)
+* [[Attach:CropDicomTool20090630_osx.zip | Crop Dicom Tool (mac os x)]] (2009-06-30)
+
+
+
+#### MCR Libraries
+
+* ftp-server: ftp.harrislinestool.com
+* user: mcr@harrislinestool.com
+* password: hltool2008
+
+
+#### Sample Data
+* [[Attach:DCMsamples.zip | sample data (2 dcm) ]]
+* [[Attach:DCMsamples4.zip | sample data (4 dcm) ]]
+* [[Attach:DCMsamples11.zip | sample data (11 dcm) ]]
+
+
+
+
 ## Installation Guidelines for the Harris Lines Tool 
 
 
@@ -35,5 +66,38 @@ For further help on installing and running a MatLab standalone application, visi
 * MATLAB
 * MATLAB Image Processing Toolbox
 
+## User Guide
+* [[UserGuide.crop_dicom | user guide crop dicom tool]] (2011-04-20)
+
+### Output of age-at-formation for the different methods:
+The four different age-at-formation methods suggest and use different age categories for the final output. An overview is given here (for details see original publications):
+
+* Maat, 1984: min-max age-at-formation: 0-18 (males), 0-16 (females) (steps between two age categories are smaller than 1 year, from the age-at-formation at the age of 1 year, there is an accuracy of 0.5 years per age-at-formation interval)
+
+* Clarke, 1982: min-max age-at-formation: 0-16 (males+females) (steps between two age categories correspond continuously to 1 year)
+
+* Byers, 1991: min-max age-at-formation: 1-17 (males), 1-16 (females) (steps between two age categories correspond continuously to 1 year)
+
+* Hummert & van Gerven, 1985, only method for juveniles implemented: age-at-formation groups: 1, 2, 3, 4, 5, 6-7, 8-9, 10-11, 12-13, 14-16, the output of the tool is 1, 2, 3, 4, 5, 6, 8, 10, 12, 14, respectively.
+
+
+
+
+## Known Issues
+
+### Further Improvement
+
+* Manually add and remove Harris lines
+* Import format: DICOM. Tiff ? others?
+* Combining two lines on the screen
+* Add field to choose pixel/cm conversion (currently it numpix / resolution * 2.54)
+
+
+### Other problems
+* Case that one individual has only one epiphyses? Age computation method?
+* What if you only have half of a tibia. E.g. only distal or proximal part?
+* Calculation of age for unsexed individuals (tables only for either males or females)
 
 Note: this repository is not actively improved (nor supported), but the code is available such that it can be reused.
+
+
