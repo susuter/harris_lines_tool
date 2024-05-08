@@ -24,13 +24,11 @@ The Harris lines tool (HL Tool) may be used for scientific research and evaluati
 Windows (Win2000 +):
 * [HL Tool](HLTool20090630-1.zip) (2009-06-30)
 * [Crop Dicom Tool](CropDicomTool_win_20110420.zip) (2011-04-20)
-* [Crop Dicom Tool](CropDicomTool_win_20090630.zip) (2009-06-30)
 
 
 Mac OS X (Intel):
 * [HL Tool (mac os x)](HLTool20090630_osx.zip) (2009-06-30), works but has some problems with the export. 
 * [Crop Dicom Tool (mac os x)](CropDicomTool20110420_osx.zip) (2011-04-20)
-* [Crop Dicom Tool (mac os x)](CropDicomTool20090630_osx.zip) (2009-06-30)
 
 
 
