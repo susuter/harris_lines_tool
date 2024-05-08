@@ -24,7 +24,7 @@ The application runs as MatLab standalone application. This allows the user to r
 
 #### Steps for installation
 - Install MCR libraries (MCRInstaller (exe, bin or dmg)
-- perform the steps described in the [[install_readme.txt |readme]] file
+- perform the steps described in the [readme](install_readme.txt) file
 - [[Download | download]] the Harris lines tool and double click on the executable of the application
 
 For further help on installing and running a MatLab standalone application, visit the documentation website of MatLab: [[ http://www.mathworks.com/access/helpdesk/help/helpdesk.html| MatLab documentation]].
