@@ -34,9 +34,7 @@ Mac OS X (Intel):
 
 #### MCR Libraries
 
-* ftp-server: ftp.harrislinestool.com
-* user: mcr@harrislinestool.com
-* password: hltool2008
+
 
 
 #### Sample Data
