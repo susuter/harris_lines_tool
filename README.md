@@ -33,7 +33,7 @@ Mac OS X (Intel):
 
 
 #### MCR Libraries
-
+https://github.com/susuter/hltool_mc
 
 
 
@@ -80,7 +80,7 @@ The four different age-at-formation methods suggest and use different age catego
 
 
 
-## Known Issues
+## Known Issues
 
 ### Further Improvement
 
