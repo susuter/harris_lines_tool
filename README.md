@@ -33,7 +33,7 @@ Mac OS X (Intel):
 
 
 #### MCR Libraries
-https://github.com/susuter/hltool_mc
+https://github.com/susuter/hltool_mcr
 
 
 
