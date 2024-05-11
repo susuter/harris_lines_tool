@@ -33,8 +33,7 @@ Mac OS X (Intel):
 
 
 #### MCR Libraries
-https://github.com/susuter/hltool_mcr
-
+[dropbox link to download MCR libraries](https://www.dropbox.com/scl/fi/j8pnqno5sqyl7twi1cqhf/MCRInstaller_m2008a_winxp.zip?rlkey=7gtz1933royet6bbtw7igma44&st=pcx5t3ho&dl=0)
 
 
 #### Sample Data
